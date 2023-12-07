@@ -8,7 +8,7 @@ const cors = require("cors");
 app.use(cors());
 
 // Set up the Server Port
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 // parse the request of content-type-application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
